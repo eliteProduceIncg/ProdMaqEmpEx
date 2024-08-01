@@ -16,6 +16,16 @@
                         <h2 class="card-title">Producción en maquila en empaque externo</h2>
                         <p class="card-text">Este formulario es para registrar la producción en las maquilas externas a Elite Produce. Es un registro por el total de producción diaria de cada presentación empacada (Variedad y presentación por Peso de caja empacada).</p>
                         <form action="https://api.sheetmonkey.io/form/edZWM96b9sz2VJpFNqvuLn" method="post">
+                            <input 
+                            type="hidden"
+                            name="x-sheetmonkey-insert-worksheet"
+                            value="Test1"
+                        />
+                        <input 
+                        type="hidden" 
+                        name="x-sheetmonkey-redirect" 
+                        value="http://127.0.0.1:5500/ProdMaqEmpEx/FormularioProdMaqEmpEx/Formulario.html" 
+                    />
                             <!-- Put HTML input fields in here and see how they fill up your sheet -->
                             <div class="mb-3">
                                 <label for="supervisor" class="form-label">Supervisor de maquila externa *</label>

@@ -70,3 +70,4 @@ fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${r
         });
     })
     .catch(error => console.error('Error fetching data: '));
+
